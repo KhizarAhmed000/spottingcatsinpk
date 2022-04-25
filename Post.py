@@ -1,3 +1,3 @@
-class Post(User):
-    def __init__(self) -> None:
-        super().__init__()
+class Post:
+    def __init__(self,User,PostID) -> None:
+        pass

@@ -1,6 +1,7 @@
 import mysql.connector
 
 print("hello")
+print("i dont know if this is being commitedd")
 
 connection = mysql.connector.connect(host='localhost',
                                          database='cats',
