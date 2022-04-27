@@ -1,5 +1,6 @@
 import mysql.connector
-
+from instagramy import InstagramPost
+import Post
 print("hello")
 print("i dont know if this is being commitedd")
 
@@ -12,4 +13,11 @@ if connection.is_connected():
         print("Connected to MySQL Server version ", db_Info)                                         
 
                             
-asdsadads
+post = InstagramPost("Ccx1A_cIXVl")
+
+#print(post.author)
+#print(post.number_of_comments)
+#print(post.number_of_likes)
+#aPost = Post('khizar','Ccx1A_cIXVl')
+#aPost.getLikes
+
